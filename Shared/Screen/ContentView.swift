@@ -15,8 +15,10 @@ struct ContentView: View {
             List {
                 //요소 랜덤 효과 .shuffled()
                 ForEach(fruits.shuffled()) { item in
+                    NavigationLink(destination: FruitDetailView(fruit: item)) {
                     FruitRowView(fruit: item)
                         .padding(.vertical, 5)
+                    }
                 }
             }
             .navigationTitle("과일")
