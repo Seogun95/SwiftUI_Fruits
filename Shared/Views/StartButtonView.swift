@@ -9,11 +9,13 @@ import SwiftUI
 
 struct StartButtonView: View {
     //MARK: - PROPERY
-    
+    @AppStorage("OnboardingView") var isOnboardingActive: Bool?
     //MARK: - BODY
     var body: some View {
         Button(action: {
-            print("OnboardingView로 이동")
+            withAnimation(.easeInOut) {
+                isOnboardingActive = false
+            }
         }) {
             HStack(spacing: 10) {
                 Text("시작하기")
