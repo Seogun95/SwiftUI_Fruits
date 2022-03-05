@@ -14,7 +14,7 @@ import SwiftUI
 let fruitData: [Fruit] = [
    
     Fruit(
-        title: "Blueberry",
+        title: "블루베리",
         headline: "Blueberries are sweet, nutritious and wildly popular fruit all over the world.",
         image: "blueberry",
         gradientColors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")],
@@ -44,7 +44,7 @@ let fruitData: [Fruit] = [
         nutrition: ["240 kJ (57 kcal)","9.96 g","0.33 g","0.74 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Sodium, Zinc"]
       ),
       Fruit(
-        title: "Strawberry",
+        title: "딸기",
         headline: "Widely appreciated for its characteristic aroma,  red color, juicy texture, and sweetness.",
         image: "strawberry",
         gradientColors: [Color("ColorStrawberryLight"), Color("ColorStrawberryDark")],
@@ -70,7 +70,7 @@ let fruitData: [Fruit] = [
         nutrition: ["136 kJ (33 kcal)","4.89 g","0.3 g","0.67 g","B1, B2, B3, B5, B6, B9, Choline, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
       Fruit(
-        title: "Lemon",
+        title: "레몬",
         headline: "There's no doubt lemons are delicious, but does adding them to water make you healthier?",
         image: "lemon",
         gradientColors: [Color("ColorLemonLight"), Color("ColorLemonDark")],
@@ -112,7 +112,7 @@ let fruitData: [Fruit] = [
         nutrition: ["121 kJ (29 kcal)","2.5 g","0.3 g","1.1 g","B1, B2, B3, B5, B6, B9, C, Choline","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
       ),
       Fruit(
-        title: "Plum",
+        title: "자두",
         headline: "Plums are a very nutritious fruit. An excellent source of vitamins, minerals, fiber and antioxidants.",
         image: "plum",
         gradientColors: [Color("ColorPlumLight"), Color("ColorPlumDark")],
@@ -144,7 +144,7 @@ let fruitData: [Fruit] = [
         nutrition: ["192 kJ (46 kcal)","9.92 g","0.28 g","0.7 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
       Fruit(
-        title: "Lime",
+        title: "라임",
         headline: "Sour, round, and bright green citrus fruits. Limes are high in vitamin C, antioxidants, and other nutrients.",
         image: "lime",
         gradientColors: [Color("ColorLimeLight"), Color("ColorLimeDark")],
@@ -174,7 +174,7 @@ let fruitData: [Fruit] = [
         nutrition: ["126 kJ (30 kcal)","1.7 g","0.2 g","0.7 g","B1, B2, B3, B5, B6, B9, C","Calcium, Iron, Magnasium, Phosphorus, Potassium, Sodium"]
       ),
       Fruit(
-        title: "Pomegranate",
+        title: "석류",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "pomegranate",
         gradientColors: [Color("ColorPomegranateLight"), Color("ColorPomegranateDark")],
@@ -200,7 +200,7 @@ let fruitData: [Fruit] = [
         nutrition: ["346 kJ (83 kcal)","13.67 g","1.17 g","1.67 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
       Fruit(
-        title: "Pear",
+        title: "배",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "pear",
         gradientColors: [Color("ColorPearLight"), Color("ColorPearDark")],
@@ -236,7 +236,7 @@ let fruitData: [Fruit] = [
         nutrition: ["239 kJ (57 kcal)","9.75 g","0.14 g","0.36 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
       Fruit(
-        title: "Gooseberry",
+        title: "구스베리",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "gooseberry",
         gradientColors: [Color("ColorGooseberryLight"), Color("ColorGooseberryDark")],
@@ -260,7 +260,7 @@ let fruitData: [Fruit] = [
         nutrition: ["184 kJ (44 kcal)","6.15","0.58 g","0.88 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
       Fruit(
-        title: "Mango",
+        title: "망고",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "mango",
         gradientColors: [Color("ColorMangoLight"), Color("ColorMangoDark")],
@@ -292,7 +292,7 @@ let fruitData: [Fruit] = [
         nutrition: ["250 kJ (60 kcal)","13.7 g","0.38 g","0.82 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
       Fruit(
-        title: "Watermelon",
+        title: "수박",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "watermelon",
         gradientColors: [Color("ColorWatermelonLight"), Color("ColorWatermelonDark")],
@@ -326,7 +326,7 @@ let fruitData: [Fruit] = [
         nutrition: ["127 kJ (30 kcal)","6.2 g","0.15 g","0.61 g","A, B1, B2, B3, B5, B6, C","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
       Fruit(
-        title: "Cherry",
+        title: "체리",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "cherry",
         gradientColors: [Color("ColorCherryLight"), Color("ColorCherryDark")],
@@ -348,7 +348,7 @@ let fruitData: [Fruit] = [
         nutrition: ["209 kJ (50 kcal)","8.5 g","0.3 g","1 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
       Fruit(
-        title: "Grapefruit",
+        title: "자몽",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "grapefruit",
         gradientColors: [Color("ColorGrapefruitLight"), Color("ColorGrapefruitDark")],
@@ -374,7 +374,7 @@ let fruitData: [Fruit] = [
         nutrition: ["138 kJ (33 kcal)","7.31 g","0.10 g","0.8 g","B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
       ),
       Fruit(
-        title: "Apple",
+        title: "사과",
         headline: "Apples are one of the most popular, and exceptionally healthy fruit for good reason.",
         image: "apple",
         gradientColors: [Color("ColorAppleLight"), Color("ColorAppleDark")],

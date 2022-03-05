@@ -9,6 +9,7 @@ import SwiftUI
 
 struct FruitCardView: View {
     //MARK: - PROPERTY
+    var fruit: Fruit
     @State private var isAnimating: Bool = false
     
     //MARK: - BODY
@@ -16,20 +17,21 @@ struct FruitCardView: View {
         ZStack {
             VStack(spacing: 20) {
                 // FRUIT IMAGE
-                Image("blueberry")
+                Image(fruit.image)
                     .resizable()
                     .scaledToFit()
                     .scaleEffect(isAnimating ? 1 : 0.5)
+                    .shadow(color: .black .opacity(0.5), radius: 8, x: 6, y: 8)
                     
                 // FRUIT TITLE
-                Text("블루베리")
+                Text(fruit.title)
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(.white)
                     .shadow(color: Color.black .opacity(0.3), radius: 8, x: 2, y: 2)
                 
                 // FRUIT HEADLINE
-                Text("블루베리는 파란색 또는 보라색 열매가 있는 다년생 꽃 식물로 널리 분포되어 있습니다")
+                Text(fruit.headline)
                     .multilineTextAlignment(.center)
                     .foregroundColor(.white)
                     .padding(.horizontal, 10)
@@ -39,7 +41,7 @@ struct FruitCardView: View {
             }//:VSTACK
         }//:ZSTACK
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-        .background(LinearGradient(gradient: Gradient(colors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")]), startPoint: .top, endPoint: .bottom))
+        .background(LinearGradient(gradient: Gradient(colors: fruit.gradientColors), startPoint: .top, endPoint: .bottom))
         .cornerRadius(10)
         .padding(.horizontal, 10)
         .onAppear(perform: {
@@ -53,7 +55,7 @@ struct FruitCardView: View {
 //MARK: - PREVIEW
 struct FruitCardView_Previews: PreviewProvider {
     static var previews: some View {
-        FruitCardView()
+        FruitCardView(fruit: fruitData[11])
             .previewLayout(.fixed(width: 360, height: 680))
     }
 }
