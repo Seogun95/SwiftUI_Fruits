@@ -30,7 +30,7 @@ struct FruitDetailView: View {
                             .multilineTextAlignment(.leading)
                         
                         //MARK: - NUTRIENTS
-                        
+                        FruitNutrientsView(fruit: fruit)
                         
                         //MARK: - SUBHEADLINE
                         Text("\(fruit.title)에 대해 자세히 알아보기")
